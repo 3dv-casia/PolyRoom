@@ -21,4 +21,5 @@ We thank the authors of RoomFormer, HEAT, and MonteFloor for providing results f
 * [Detectron2](https://github.com/facebookresearch/detectron2)
 * [HEAT](https://github.com/woodfrog/heat)
 * [BoundaryFormer](https://github.com/mlpc-ucsd/BoundaryFormer)
+* [MMdetection](https://github.com/open-mmlab/mmdetection)
 

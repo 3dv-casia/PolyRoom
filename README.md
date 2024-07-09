@@ -1,4 +1,4 @@
-# [ECCV2024]PolyRoom: Room-aware Transformer for Floorplan Reconstruction
+# [ECCV2024] PolyRoom: Room-aware Transformer for Floorplan Reconstruction
 Official implementation of 'PolyRoom: Room-aware Transformer for Floorplan Reconstruction'.   
 Please keep tuned and we will release the code soon!
 ## Abstract

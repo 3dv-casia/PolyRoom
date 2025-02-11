@@ -13,6 +13,9 @@ Experimental results on two widely used datasets demonstrate that PolyRoom surpa
 
 **Overall architecture of PolyRoom.** PolyRoom consists of four main components: (a) Encoder module, (b) Decoder module, (c) Room-aware query initialization module, and (d) Floorplan extraction module. Room queries are initialized with instance segmentation. Subsequently,  they are refined in the Transformer decoder layer by layer with dense supervision (red and blue boxes mark the changes). Finally, the floorplan is extracted based on vertex selection. The detailed structure of the $i$th layer in the Transformer decoder is depicted in the right part, where $F$ denotes the output of the Transformer encoder, $C_i$, $C_{i+1}$ represent content queries from different layers, while $Q_i$, $Q_{i+1}$ denote room queries from different layers.
 
+## Environment, dataset, and runnning
+Please refer to [RoomFormer](https://github.com/ywyue/RoomFormer/) and * [MMdetection](https://github.com/open-mmlab/mmdetection) for environment setting, dataset preparation and code running.
+
 ## Acknowledgment
 We thank the authors of RoomFormer, HEAT, and MonteFloor for providing results for better comparison. We also thank the following excellent projects especially RoomFormer:
 * [RoomFormer](https://github.com/ywyue/RoomFormer/)

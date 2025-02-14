@@ -7,16 +7,16 @@ import sys
 import time
 import datetime
 from typing import Iterable
-import pydiffvg
+
 import torch.nn.functional as F
 import torch
-import skimage
+
 import numpy as np
 from shapely.geometry import Polygon
 import torch
 import mmcv
 from mmdet.apis import inference_detector, init_detector
-from rdp import rdp
+
 import util.misc as utils
 from util.poly_ops import resort_corners
 from models.roomformer import calculate_angles

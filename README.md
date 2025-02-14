@@ -15,6 +15,7 @@ Experimental results on two widely used datasets demonstrate that PolyRoom surpa
 
 ## Environment, dataset, and runnning
 Please refer to [RoomFormer](https://github.com/ywyue/RoomFormer/) and [MMdetection](https://github.com/open-mmlab/mmdetection) for environment setting, dataset preparation and code running.
+Put the file "mask-rcnn_r50-caffe_fpn_ms-poly-1x_str3d.py" in ./mmdetection/configs/str3d, the file "str3dcoco.py" in ./mmdetection/mmdet/datasets, the "__init__.py" in ./mmdetection/mmdet/datasets.
 
 ## Citation
 If you find PolyRoom useful in your research, please cite our paper:

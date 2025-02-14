@@ -1,0 +1,12 @@
+python eval.py --dataset_name=stru3d \
+               --dataset_root=data/stru3d \
+               --eval_set=test \
+               --checkpoint=    \
+               --output_dir=eval_stru3d \
+               --num_queries=800 \
+               --num_polys=20 \
+               --semantic_classes=-1 \
+               --pre_bar=0.01 \
+               --threhold=0 \
+               --output_dir= \
+               --dec_layers=6

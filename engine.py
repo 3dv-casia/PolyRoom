@@ -41,7 +41,7 @@ def merge_points(points, threshold = 10):
     for i in range(merged_points.shape[0]):
         dp_points.append([merged_points[i]])
     dp_points = np.array(dp_points)
-    dp_points = cv2.approxPolyDP(dp_points, epsilon=0, closed=True)
+    dp_points = cv2.approxPolyDP(dp_points, epsilon=4, closed=True)
     
     merged_points = []
     for i in range(dp_points.shape[0]):

@@ -15,7 +15,7 @@ Experimental results on two widely used datasets demonstrate that PolyRoom surpa
 
 ## Environment, dataset, and runnning
 Please refer to [RoomFormer](https://github.com/ywyue/RoomFormer/) and [MMdetection](https://github.com/open-mmlab/mmdetection) for environment setting, dataset preparation and code running.
-Put the file "mask-rcnn_r50-caffe_fpn_ms-poly-1x_str3d.py" in ./mmdetection/configs/str3d, the file "str3dcoco.py" in ./mmdetection/mmdet/datasets, the "__init__.py" in ./mmdetection/mmdet/datasets. Besides, complete the "maskrcnnconfig_file" and "maskrcnncheckpoint_file" in engine.py.
+Put the file "mask-rcnn_r50-caffe_fpn_ms-poly-1x_str3d.py" in ./mmdetection/configs/str3d, the file "str3dcoco.py" in ./mmdetection/mmdet/datasets, the "__init__.py" in ./mmdetection/mmdet/datasets. Besides, complete the "maskrcnnconfig_file" and "maskrcnncheckpoint_file" in engine.py. (Please install MMDetection from source and move the specified files to the source folder of the MMDetection library, refer to https://github.com/3dv-casia/PolyRoom/issues/2#issuecomment-2838711918 for the details).
 
 ## Checkpoints
 The checkpoints of the Mask2former and PolyRoom are can be downloaded in [this link](https://drive.google.com/drive/folders/186SLocs6jPzCKq9B5419HfMV2TIMBz2I?usp=sharing).
